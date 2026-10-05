@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Institucional</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">Portal Institucional</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNavbar">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#cursos">Cursos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#noticias">Notícias</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Áreas de Ensino
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                        <li><a class="dropdown-item" href="#">Engenharia</a></li>
+                        <li><a class="dropdown-item" href="#">Gestão</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <h1>Transforme seu futuro através da educação</h1>
+
+                <p>
+                    Conheça nossos cursos e prepare-se para novos
+                    desafios profissionais por meio de uma educação
+                    de qualidade.
+                </p>
+
+                <a href="#cursos" class="btn btn-primary">
+                    Conheça nossos cursos
+                </a>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+                alt="Estudantes em ambiente universitário"
+                class="img-fluid"
+    >
+                >
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="cursos" class="cursos py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Nossos Cursos</h2>
+            <p>
+                Encontre o curso ideal para desenvolver seus conhecimentos
+                e alcançar seus objetivos profissionais.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Curso 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                        class="card-img-top"
+                        alt="Engenharia de Computação"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Engenharia de Computação</h5>
+
+                        <p class="card-text">
+                            Formação voltada ao desenvolvimento de sistemas,
+                            hardware, software e tecnologias computacionais.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalComputacao">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curso 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1531482615713-2afd69097998"
+                        class="card-img-top"
+                        alt="Sistemas de Informação"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Sistemas de Informação</h5>
+
+                        <p class="card-text">
+                            Curso focado em sistemas, bancos de dados,
+                            programação e soluções para organizações.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalSistemas">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curso 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                        class="card-img-top"
+                        alt="Ciência de Dados"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Ciência de Dados</h5>
+
+                        <p class="card-text">
+                            Formação em análise de dados, estatística,
+                            programação e inteligência artificial.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalDados">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curso 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+                        class="card-img-top"
+                        alt="Desenvolvimento Web"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvimento Web</h5>
+
+                        <p class="card-text">
+                            Aprenda a criar aplicações e sites utilizando
+                            tecnologias modernas de desenvolvimento web.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalWeb">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curso 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                        class="card-img-top"
+                        alt="Redes de Computadores"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Redes de Computadores</h5>
+
+                        <p class="card-text">
+                            Estude infraestrutura, comunicação de dados,
+                            redes e tecnologias de conectividade.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalRedes">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curso 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img
+                        src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
+                        class="card-img-top"
+                        alt="Gestão de Tecnologia"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">Gestão de Tecnologia</h5>
+
+                        <p class="card-text">
+                            Desenvolva conhecimentos em gestão, inovação
+                            e aplicação estratégica da tecnologia.
+                        </p>
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalGestao">
+                            Ver detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="noticias" class="noticias py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Notícias</h2>
+            <p>
+                Acompanhe as novidades e acontecimentos da nossa instituição.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <article class="card h-100">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-3">
+                            Educação
+                        </span>
+
+                        <h5 class="card-title">
+                            Nova turma de Engenharia de Computação
+                        </h5>
+
+                        <p class="card-text">
+                            Estão abertas novas oportunidades para estudantes
+                            interessados em tecnologia e inovação.
+                        </p>
+
+                        <p class="data-noticia">
+                            02 de outubro de 2026
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-3">
+                            Tecnologia
+                        </span>
+
+                        <h5 class="card-title">
+                            Instituto promove evento de tecnologia
+                        </h5>
+
+                        <p class="card-text">
+                            Evento reúne estudantes e profissionais para
+                            discutir inovação e novas tecnologias.
+                        </p>
+
+                        <p class="data-noticia">
+                            28 de setembro de 2026
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-3">
+                            Comunidade
+                        </span>
+
+                        <h5 class="card-title">
+                            Projeto de extensão ganha destaque
+                        </h5>
+
+                        <p class="card-text">
+                            Estudantes participam de iniciativa voltada
+                            para o desenvolvimento da comunidade.
+                        </p>
+
+                        <p class="data-noticia">
+                            20 de setembro de 2026
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="indicadores py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Nosso impacto</h2>
+            <p>
+                Números que representam nossa trajetória e compromisso
+                com a educação.
+            </p>
+        </div>
+
+        <div class="row text-center g-4">
+
+            <div class="col-6 col-lg-3">
+                <div class="indicador">
+                    <h3>5.000+</h3>
+                    <p>Alunos formados</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="indicador">
+                    <h3>20</h3>
+                    <p>Cursos oferecidos</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="indicador">
+                    <h3>180+</h3>
+                    <p>Professores</p>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="indicador">
+                    <h3>94%</h3>
+                    <p>Satisfação dos alunos</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="consulta-cursos py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Consulta de Cursos</h2>
+            <p>
+                Confira as principais informações sobre nossos cursos.
+            </p>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Curso</th>
+                        <th>Modalidade</th>
+                        <th>Carga horária</th>
+                        <th>Investimento</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Engenharia de Computação</td>
+                        <td>Presencial</td>
+                        <td>3.600 horas</td>
+                        <td>R$ 899,00/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sistemas de Informação</td>
+                        <td>Híbrido</td>
+                        <td>3.200 horas</td>
+                        <td>R$ 749,00/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ciência de Dados</td>
+                        <td>Híbrido</td>
+                        <td>2.400 horas</td>
+                        <td>R$ 699,00/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Desenvolvimento Web</td>
+                        <td>Online</td>
+                        <td>1.600 horas</td>
+                        <td>R$ 499,00/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Redes de Computadores</td>
+                        <td>Presencial</td>
+                        <td>2.000 horas</td>
+                        <td>R$ 599,00/mês</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gestão de Tecnologia</td>
+                        <td>Híbrido</td>
+                        <td>2.000 horas</td>
+                        <td>R$ 649,00/mês</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+</section>
+<section id="contato" class="contato py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Fale Conosco</h2>
+            <p>
+                Entre em contato conosco para saber mais sobre nossos cursos.
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input
+                            type="tel"
+                            class="form-control"
+                            id="telefone"
+                            name="telefone"
+                            placeholder="Digite seu telefone"
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="curso" class="form-label">
+                            Curso de interesse
+                        </label>
+
+                        <select
+                            class="form-select"
+                            id="curso"
+                            name="curso"
+                            required
+                        >
+                            <option value="" selected disabled>
+                                Selecione um curso
+                            </option>
+
+                            <option>Engenharia de Computação</option>
+                            <option>Sistemas de Informação</option>
+                            <option>Ciência de Dados</option>
+                            <option>Desenvolvimento Web</option>
+                            <option>Redes de Computadores</option>
+                            <option>Gestão de Tecnologia</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            class="form-control"
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            placeholder="Digite sua mensagem"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button
+                            type="submit"
+                            class="btn btn-primary">
+                            Enviar mensagem
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+ <!-- Modal Engenharia de Computação -->
+<div class="modal fade" id="modalComputacao" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Engenharia de Computação</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Preparar profissionais para desenvolver, implementar
+                    e gerenciar soluções envolvendo hardware e software.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>3.600 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Estudantes interessados em tecnologia, programação,
+                    eletrônica e desenvolvimento de sistemas.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso aborda fundamentos de computação, programação,
+                    eletrônica, sistemas digitais, redes e desenvolvimento
+                    de soluções computacionais.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sistemas de Informação -->
+    <!-- Modal Sistemas de Informação -->
+<div class="modal fade" id="modalSistemas" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Sistemas de Informação</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Formar profissionais capazes de analisar, desenvolver
+                    e administrar sistemas de informação.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>3.200 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Pessoas interessadas em programação, sistemas,
+                    tecnologia e gestão da informação.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso apresenta conceitos de programação, bancos de
+                    dados, engenharia de software, sistemas de informação
+                    e gestão tecnológica.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal Ciência de Dados -->
+<div class="modal fade" id="modalDados" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Ciência de Dados</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Desenvolver profissionais capazes de analisar dados
+                    e transformar informações em conhecimento.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>2.400 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Pessoas interessadas em programação, estatística,
+                    análise de dados e inteligência artificial.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso aborda análise de dados, estatística,
+                    programação, visualização de informações e
+                    fundamentos de inteligência artificial.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal Desenvolvimento Web -->
+<div class="modal fade" id="modalWeb" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Desenvolvimento Web</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Capacitar profissionais para desenvolver interfaces
+                    e aplicações para a web.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>1.600 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Pessoas interessadas em criação de sites,
+                    interfaces e desenvolvimento de aplicações web.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso apresenta conceitos de HTML, CSS, Bootstrap,
+                    desenvolvimento de interfaces e fundamentos de
+                    aplicações web.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal Redes de Computadores -->
+<div class="modal fade" id="modalRedes" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Redes de Computadores</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Preparar profissionais para planejar, configurar
+                    e administrar redes de computadores.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>2.000 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Pessoas interessadas em redes, infraestrutura,
+                    comunicação de dados e tecnologia.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso aborda infraestrutura de redes, protocolos,
+                    comunicação de dados, segurança e tecnologias de
+                    conectividade.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal Gestão de Tecnologia -->
+<div class="modal fade" id="modalGestao" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Gestão de Tecnologia</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Objetivos</h6>
+                <p>
+                    Desenvolver profissionais capazes de utilizar a
+                    tecnologia de forma estratégica nas organizações.
+                </p>
+
+                <h6>Carga horária</h6>
+                <p>2.000 horas</p>
+
+                <h6>Público-alvo</h6>
+                <p>
+                    Pessoas interessadas em tecnologia, gestão,
+                    inovação e negócios.
+                </p>
+
+                <h6>Descrição</h6>
+                <p>
+                    O curso aborda gestão de tecnologia, inovação,
+                    planejamento e aplicação estratégica de soluções
+                    tecnológicas.
+                </p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Fechar
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer class="rodape">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <h5>Portal Institucional</h5>
+                <p>
+                    Educação de qualidade para transformar
+                    conhecimento em oportunidades.
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5>Contato</h5>
+                <p>Av. Universitária, 1000 - Centro</p>
+                <p>Ribeirão Preto - SP</p>
+                <p>(16) 3333-4444</p>
+                <p>contato@portalinstitucional.com.br</p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5>Redes sociais</h5>
+
+                <p>
+                    <a href="#" class="text-white">
+                        Instagram
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#" class="text-white">
+                        Facebook
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#" class="text-white">
+                        LinkedIn
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p class="mb-0">
+                &copy; 2026 Portal Institucional. Todos os direitos reservados.
+            </p>
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+   
+
+</script>
+
+</body>
+
+</html>
